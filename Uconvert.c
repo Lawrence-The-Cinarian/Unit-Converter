@@ -9,10 +9,8 @@ int main() {
   int operands;
   const double answer;
   const double question;
-  const double G_TO_KG = 1; //grams to kilograms
-  const double KG_TO_G= 1000; //kilograms to grams
-  const double M_TO_KM = 1; //metre to kilometre
-  const double KM_TO_M = 1000;//kilometre to metre
+  const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
+  const double KM_TO_M = 1000;//kilometre to metre or metre to kilometre
   const double CM_TO_MM = 10; //centimetre to millimetre
   const double MM_TO_CM = 0.1; //millimetre to centimetre
   const double MIN_TO_SEC = 60; //minute to second
@@ -54,6 +52,41 @@ int main() {
  printf("\t*            (9) CELSIUS TO KELVIN.                  *\n");
  printf("\t*            (10) KELVIN TO CELSIUS.                 *\n");
  printf("\t******************************************************\n")
+ printf("\n");
+ printf("\t******************************************************\n");
+ printf("Enter No. in the options above for conversion: ");
+ scanf("%d", &choice);
+ printf("\t******************************************************\n");
+
+  switch(choice) {
+   case 1: 
+   answer = question / KG_TO_G;
+   printf("Ans: %.2fkg\n", answer);
+   break;
+
+   case 2:
+   answer = question * KG_TO_G;
+   printf("\t******************************************************\n");
+   printf("Ans: %.2fg\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   case 3;
+   answer = question / KM_TO_M
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fkm\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   case 4:
+   answer = question * KM_TO_M
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fm\n", answer);
+   printf("\t******************************************************\n");
+
+   case 5: 
+   answer = question 
+  }
  }
   
 else {
