@@ -59,7 +59,10 @@ int main() {
   switch(choice) {
    case 1: 
    answer = question / KG_TO_G;
-   printf("Ans: %.2fkg\n", answer);
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fkg\n", answer);
+   printf("\t******************************************************\n");
+   
    break;
 
    case 2:
@@ -70,35 +73,45 @@ int main() {
    break;
 
    case 3;
-   answer = question / KM_TO_M
+   answer = question / KM_TO_M;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fkm\n", answer);
    printf("\t******************************************************\n");
    break;
 
    case 4:
-   answer = question * KM_TO_M
+   answer = question * KM_TO_M;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fm\n", answer);
    printf("\t******************************************************\n");
    break;
    
    case 5: 
-   answer = question * CM_TO_MM
+   answer = question * CM_TO_MM;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fmm\n", answer);
    printf("\t******************************************************\n");
    break;
 
    case 6:
-   answer = question / CM_TO_MM
+   answer = question / CM_TO_MM;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fcm\n", answer);
    printf("\t******************************************************\n");
    break;
 
    case 7:
-   answer = question 
+   answer = question * MIN_TO_SEC;
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fsecs\n", answer);
+   printf("\t******************************************************\n");
+
+   case 8:
+   answer = question / MIN_TO_SEC;
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fmins\n", answer);
+   printf("\t******************************************************\n");
+   
   }
  }
   
