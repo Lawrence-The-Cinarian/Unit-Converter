@@ -6,7 +6,6 @@ int main() {
 
   char password [50];
   int choice;
-  int operands;
   const double answer;
   const double question;
   const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
@@ -121,7 +120,14 @@ int main() {
    break;
 
    case 10:
-   answer=
+   answer = question - CELS_TO_KELV;
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2f°C\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   default:
+   printf("Invalid Input\n");
   }
  }
   
