@@ -6,7 +6,7 @@ int main() {
 
   char password [50];
   int choice;
-  const double answer;
+  double answer;
   const double question;
   const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
   const double KM_TO_M = 1000;//kilometre to metre or metre to kilometre
