@@ -13,8 +13,7 @@ int main() {
   const double KM_TO_M = 1000;//kilometre to metre or metre to kilometre
   const double CM_TO_MM = 10; //centimetre to millimetre or millimetre to centimetre
   const double MIN_TO_SEC = 60; //minute to second or second to minute
-  const double CELS_TO_KELV = 273.15; //celsius to kelvin
-  const double KELV_TO_CELS = -273.15; //kelvin to celsius
+  const double CELS_TO_KELV = 273.15; //celsius to kelvin or kelvin to celsius
  printf("\t******************************************************\n");
  printf("\t* Enter Password: ");
  printf("%49s", password);
@@ -105,13 +104,24 @@ int main() {
    printf("\t******************************************************\n");
    printf("\tAns: %.2fsecs\n", answer);
    printf("\t******************************************************\n");
-
+   break;
+   
    case 8:
    answer = question / MIN_TO_SEC;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fmins\n", answer);
    printf("\t******************************************************\n");
-   
+   break;
+
+   case 9:
+   answer = question + CELS_TO_KELV;
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fK\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   case 10:
+   answer=
   }
  }
   
