@@ -11,10 +11,8 @@ int main() {
   const double question;
   const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
   const double KM_TO_M = 1000;//kilometre to metre or metre to kilometre
-  const double CM_TO_MM = 10; //centimetre to millimetre
-  const double MM_TO_CM = 0.1; //millimetre to centimetre
-  const double MIN_TO_SEC = 60; //minute to second
-  const double SEC_TO_MIN = 0.0166667; //second to minute
+  const double CM_TO_MM = 10; //centimetre to millimetre or millimetre to centimetre
+  const double MIN_TO_SEC = 60; //minute to second or second to minute
   const double CELS_TO_KELV = 273.15; //celsius to kelvin
   const double KELV_TO_CELS = -273.15; //kelvin to celsius
  printf("\t******************************************************\n");
@@ -83,8 +81,23 @@ int main() {
    printf("\t******************************************************\n");
    printf("\tAns: %.2fm\n", answer);
    printf("\t******************************************************\n");
-
+   break;
+   
    case 5: 
+   answer = question * CM_TO_MM
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fmm\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   case 6:
+   answer = question / CM_TO_MM
+   printf("\t******************************************************\n");
+   printf("\tAns: %.2fcm\n", answer);
+   printf("\t******************************************************\n");
+   break;
+
+   case 7:
    answer = question 
   }
  }
