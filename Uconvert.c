@@ -32,7 +32,7 @@ int main() {
  printf("\t******************************************************\n");
  printf("\n");
  printf("\t******************************************************\n");
- printf("\t*Enter Number for conversion: ")
+ printf("\t*Enter Number for conversion: ");
  scanf("%lf", &question);
  printf("\t******************************************************\n");
  printf("\n");
@@ -70,7 +70,7 @@ int main() {
    printf("\t******************************************************\n");
    break;
 
-   case 3;
+   case 3:
    answer = question / KM_TO_M;
    printf("\t******************************************************\n");
    printf("\tAns: %.2fkm\n", answer);
