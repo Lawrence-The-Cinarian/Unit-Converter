@@ -38,10 +38,22 @@ int main() {
  printf("\t******************************************************\n");
  printf("\n");
  printf("\t******************************************************\n");
- printf("\t*Enter 1 for an operand ")
+ printf("\t*Enter Number for conversion: ")
+ scanf("%lf", &question);
  printf("\t******************************************************\n");
-  if(operands <= 0 || operands >= 3) {}
-  else if(operand == )
+ printf("\n");
+ printf("\t******************************************************\n");
+ printf("\t*            (1) GRAMS TO KILOGRAMS.                 *\n");
+ printf("\t*            (2) KILOGRAMS TO GRAMS.                 *\n");
+ printf("\t*.           (3) METRES TO KILOMETRES.               *\n");
+ printf("\t*.           (4) KILOMETRES TO METRES.               *\n");
+ printf("\t*            (5) CENTIMETRES TO MILLIMETRES.         *\n");
+ printf("\t*            (6) MILLIMETRES TO CENTIMETRES.         *\n");
+ printf("\t*            (7) MINUTES TO SECONDS.                 *\n");
+ printf("\t*            (8) SECONDS TO MINUTES.                 *\n");
+ printf("\t*            (9) CELSIUS TO KELVIN.                  *\n");
+ printf("\t*            (10) KELVIN TO CELSIUS.                 *\n");
+ printf("\t******************************************************\n")
  }
   
 else {
