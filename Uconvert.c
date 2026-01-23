@@ -6,8 +6,7 @@ int main() {
 
   char password [50];
   int choice;
-  double answer;
-  const double question;
+  double answer, question;
   const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
   const double KM_TO_M = 1000;//kilometre to metre or metre to kilometre
   const double CM_TO_MM = 10; //centimetre to millimetre or millimetre to centimetre
@@ -47,7 +46,7 @@ int main() {
  printf("\t*            (8) SECONDS TO MINUTES.                 *\n");
  printf("\t*            (9) CELSIUS TO KELVIN.                  *\n");
  printf("\t*            (10) KELVIN TO CELSIUS.                 *\n");
- printf("\t******************************************************\n")
+ printf("\t******************************************************\n");
  printf("\n");
  printf("\t******************************************************\n");
  printf("Enter No. in the options above for conversion: ");
