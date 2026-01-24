@@ -39,8 +39,8 @@ int main() {
  printf("******************************************************\n");
  printf("*            (1) GRAMS TO KILOGRAMS.                 *\n");
  printf("*            (2) KILOGRAMS TO GRAMS.                 *\n");
- printf("*.           (3) METRES TO KILOMETRES.               *\n");
- printf("*.           (4) KILOMETRES TO METRES.               *\n");
+ printf("*            (3) METRES TO KILOMETRES.               *\n");
+ printf("*            (4) KILOMETRES TO METRES.               *\n");
  printf("*            (5) CENTIMETRES TO MILLIMETRES.         *\n");
  printf("*            (6) MILLIMETRES TO CENTIMETRES.         *\n");
  printf("*            (7) MINUTES TO SECONDS.                 *\n");
