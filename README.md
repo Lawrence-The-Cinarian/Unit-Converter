@@ -38,5 +38,7 @@ run the software as
 
 Then test and see it work 
 
+Note: The Password is Lawxey8
+if you wanna change it you can fork this repository and so it 😊.
 
 # I'll keep updating it as my knowledge on C, Assembly and VHDL grows
