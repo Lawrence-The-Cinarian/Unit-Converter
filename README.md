@@ -24,4 +24,4 @@ You can use Android to Run this with applications like Termux, Ubuntu VM on User
 Can run on Ubuntu Desktop as well too
 
 using git clone you run this as
-'git clone https://github.com/Lawrence-The-Cinarian/Unit-Converter.git'
+"git clone https://github.com/Lawrence-The-Cinarian/Unit-Converter.git"
