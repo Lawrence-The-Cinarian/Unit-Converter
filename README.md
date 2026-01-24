@@ -42,3 +42,5 @@ Note: The Password is Lawxey8
 if you wanna change it you can fork this repository and do it 😊.
 
 # I'll keep updating it as my knowledge on C, Assembly and VHDL grows
+
+Screenshot_20260124-013042_1.png
