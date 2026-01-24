@@ -24,4 +24,19 @@ You can use Android to Run this with applications like Termux, Ubuntu VM on User
 Can run on Ubuntu Desktop as well too
 
 using git clone you run this as
+
 "git clone https://github.com/Lawrence-The-Cinarian/Unit-Converter.git"
+
+then run
+cd Unit-Converter 
+
+compile with
+gcc Uconvert.c -o uco 
+
+run the software as
+./uco
+
+Then test and see it work 
+
+
+# I'll keep updating it as my knowledge on C, Assembly and VHDL grows
