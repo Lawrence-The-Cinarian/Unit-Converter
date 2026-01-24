@@ -14,8 +14,9 @@ int main() {
   const double CELS_TO_KELV = 273.15; //celsius to kelvin or kelvin to celsius
  printf("******************************************************\n");
  printf("* Enter Password: ");
- printf("%29s", password);
+ scanf("%29s", password);
  printf("******************************************************\n");
+ printf("\n");
  
  if(strcmp(password, "Lawrex+17") == 0) {
  printf("******************************************************\n");
@@ -29,14 +30,6 @@ int main() {
  printf("*   ******    *    *   **    *    *    *     *    *  *\n");
  printf("******************************************************\n");
  printf("\n");
- }
-
- else {
-printf("******************************************************\n");
-printf("*                  Access Denied                     *\n");
-printf("******************************************************\n");
-return 0;
- }
  
  printf("******************************************************\n");
  printf("*Enter Number for conversion: ");
@@ -135,6 +128,14 @@ return 0;
 
    default:
    printf("Invalid Input\n");
-  }
+   }
+ }
+
+ else {
+printf("******************************************************\n");
+printf("*                  Access Denied                     *\n");
+printf("******************************************************\n");
+return 0;
+ }
 return 0;
 }
