@@ -4,7 +4,7 @@
 int main() {
  /*Conversion from one unit to another*/
 
-  char password [50];
+  char password [30];
   int choice;
   double answer, question;
   const double KG_TO_G= 1000; //kilograms to grams or grams to kilograms 
@@ -14,9 +14,8 @@ int main() {
   const double CELS_TO_KELV = 273.15; //celsius to kelvin or kelvin to celsius
  printf("******************************************************\n");
  printf("* Enter Password: ");
- printf("%49s", password);
+ printf("%29s", password);
  printf("******************************************************\n");
- printf("\n");
  
  if(strcmp(password, "Lawrex+17") == 0) {
  printf("******************************************************\n");
