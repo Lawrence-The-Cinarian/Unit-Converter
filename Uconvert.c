@@ -35,6 +35,7 @@ int main() {
  printf("*Enter Number for conversion: ");
  scanf("%lf", &question);
  printf("******************************************************\n");
+ if(question >)
  printf("\n");
  printf("******************************************************\n");
  printf("*            (1) GRAMS TO KILOGRAMS.                 *\n");
